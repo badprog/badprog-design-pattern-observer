@@ -11,7 +11,7 @@ public:
 	Observer(Subject &subject);
 	virtual ~Observer();
 
-	void update(string messageFromSubject);
+	void update(const string &messageFromSubject);
 	void removeMeFromTheList();
 	void printInfo();
 

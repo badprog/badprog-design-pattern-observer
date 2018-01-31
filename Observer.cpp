@@ -34,7 +34,7 @@ void Observer::removeMeFromTheList() {
 //-----------------------------------------------------------------------------
 // Retrieves the new message from the subject.
 //-----------------------------------------------------------------------------
-void Observer::update(string messageFromSubject) {
+void Observer::update(const string &messageFromSubject) {
 	_messageFromSubject = messageFromSubject;
 	printInfo();
 }

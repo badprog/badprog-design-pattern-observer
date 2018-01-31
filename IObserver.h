@@ -10,7 +10,7 @@ class IObserver {
 public:
 
 	virtual ~IObserver() {};
-	virtual void update(string messageFromSubject) = 0;	// VP
+	virtual void update(const string &messageFromSubject) = 0;	// VP
 };
 
 #endif // __BADPROG_IOBSERVER_H__
